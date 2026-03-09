@@ -34,7 +34,7 @@ Diagrama lógico da rede utilizada nesse laboratório:
 ```mermaid
 graph TD
 
-WAN[Internet / WAN Provedor]
+WAN[Internet / WAN do Provedor]
 
 Router[Roteador Wireless<br>1 Porta WAN<br>4 Portas LAN]
 
@@ -49,7 +49,8 @@ WAN --> |Porta WAN| Router
 Router --> |LAN 1| PC1
 Router --> |LAN 2| PC2
 Router --> |LAN 3| PC3
-Router --> |LAN 4| Printer                                                  
+Router --> |LAN 4| Printer
+
 ```
 
 ---
